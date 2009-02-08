@@ -1,0 +1,7 @@
+export(fitVolDist,volEq7,fitFun)
+S3method("print", "fitVolDist")
+S3method("residuals", "fitVolDist")
+S3method("coef", "fitVolDist")
+S3method("deviance", "fitVolDist")
+S3method("vcov", "fitVolDist")
+S3method("fitted", "fitVolDist")
