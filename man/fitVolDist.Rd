@@ -26,7 +26,7 @@ fitVolDist(vol, freq, r = 100, sigma_r = 44, t = 40,
   \item{sigma_t}{a numeric value representing the variability in the
       average cell cycle time \code{t} (\eqn{h})}
   \item{maxiter}{numeric value representing the maximum number of
-    iterations used by \link[pkg]{minpack.lm} in model fitting under least
+    iterations used by \link[minpack.lm]{nls.lm} in model fitting under least
     squares criteria}
   \item{nprint}{optimization output is printed every \code{nprint}
     iterations}
@@ -51,9 +51,9 @@ fitVolDist(vol, freq, r = 100, sigma_r = 44, t = 40,
   \item{t}{the value for \code{t} (\eqn{h}) used}
   \item{sigma_t}{the value for \code{sigma_t} (\eqn{h})  used}
   \item{fitted}{the model fit.}
-  \item{fit.res}{the output object returned from \code{\link[pkg]{minpack.lm}}.}
+  \item{fit.res}{the output object returned from \link[minpack.lm]{nls.lm}.}
   \item{summary.fit.res}{the summary of the output object returned from
-    \code{\link[pkg]{minpack.lm}}.}
+    \link[minpack.lm]{nls.lm}.}
 }
 \references{
   Halter M, Elliott JT, Hubbard JB, Tona A, Plant AL (2009),

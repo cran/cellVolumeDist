@@ -16,8 +16,8 @@ analysis used to obtain Table 1 in the paper, execute the command
 }
 \details{
 The package fits a model for cell volume distributions under least
-squares criteria using the package
-\link[pkg]{minpack.lm}.  Estimates for cell growth rate and division
+squares criteria using the function
+\link[minpack.lm]{nls.lm}.  Estimates for cell growth rate and division
 time are thereby obtained.  
 }
 \references{
@@ -25,5 +25,5 @@ time are thereby obtained.
   "Cell Volume Distributions Reveal Cell Growth Rates and Division Times.",
   Journal of Theoretical Biology, in press.
 }
-\seealso{\link[pkg]{minpack.lm}}
+\seealso{\link[minpack.lm]{nls.lm}}
 \keyword{package}
