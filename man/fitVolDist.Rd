@@ -63,6 +63,8 @@ fitVolDist(vol, freq, r = 100, sigma_r = 44, t = 40,
 \seealso{\code{\link{volEq7}}}
 \examples{
 
+\dontrun{
+
 #############################################################
 # Fit volume distribution data for A10 vSMC cell cultures
 # as described in the above referenced paper
@@ -188,6 +190,8 @@ and model fit (red).
 mean estimates over the four fits",fixed.width=FALSE)
 textplot(signif(Aph100tab,3))
 
+}
+
 #############################################################
 # Fit volume distribution data for NIH3T3 cell cultures
 # as described in the above referenced paper
@@ -195,6 +199,7 @@ textplot(signif(Aph100tab,3))
 
 ## load the volume distributions in the "NIH3T3_volume_data" dataset
 data("NIH3T3_volume_data")  
+labs <- c("a","b","c","d")
 
 ## the volume distributions representing NIH3T3 cells 
 NIH3T3 <- list(NIH3T3_a, NIH3T3_b, NIH3T3_c, NIH3T3_d)

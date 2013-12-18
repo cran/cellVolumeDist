@@ -19,7 +19,7 @@ function(vol, freq, r=100,sigma_r=44, t=40,sigma_t=.3*t,
                        skel = list(r=r,sigma_r=sigma_r),
                        method = "BFGS",
                        control=list(maxit=maxiter, trace=1))
-    fv <- fitFun(relist(optim.out$par, skel = list(r=r,sigma_r=sigma_r)),
+    fv <- fitFun(relist(optim.out$par, skeleton = list(r=r,sigma_r=sigma_r)),
                  sigma_t=sigma_t, t=t, V=vol)
     out <- list(t=t, sigma_t = sigma_t, fitted=fv, data = freq, 
                 fit.res = optim.out, alg="chisq")
