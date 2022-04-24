@@ -22,8 +22,9 @@ time are thereby obtained.
 }
 \references{
   Halter M, Elliott JT, Hubbard JB, Tona A, Plant AL (2009),
-  "Cell Volume Distributions Reveal Cell Growth Rates and Division Times.",
-  Journal of Theoretical Biology, in press.
+  "Cell Volume Distributions Reveal Cell Growth Rates and Division Times",
+  Journal of Theoretical Biology, Vol 257, pp 124 - 130,
+  DOI: 10.1016/j.jtbi.2008.10.031.
 }
 \seealso{\link[minpack.lm]{nls.lm}}
 \keyword{package}

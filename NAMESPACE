@@ -5,3 +5,10 @@ S3method("coef", "fitVolDist")
 S3method("deviance", "fitVolDist")
 S3method("vcov", "fitVolDist")
 S3method("fitted", "fitVolDist")
+
+importFrom("stats", "coef", "deviance", "integrate", "optim", "pnorm",
+             "printCoefmat", "pt")
+importFrom("utils", "relist")
+importFrom("minpack.lm", "nls.lm")
+importFrom("minpack.lm", "nls.lm.control")
+importFrom("gplots", "textplot")

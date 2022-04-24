@@ -57,8 +57,9 @@ fitVolDist(vol, freq, r = 100, sigma_r = 44, t = 40,
 }
 \references{
   Halter M, Elliott JT, Hubbard JB, Tona A, Plant AL (2009),
-  "Cell Volume Distributions Reveal Cell Growth Rates and Division Times.",
-  Journal of Theoretical Biology, in press.
+  "Cell Volume Distributions Reveal Cell Growth Rates and Division Times",
+  Journal of Theoretical Biology, Vol 257, pp 124 - 130,
+  DOI: 10.1016/j.jtbi.2008.10.031.
 }
 \seealso{\code{\link{volEq7}}}
 \examples{

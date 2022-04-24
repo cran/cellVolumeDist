@@ -38,8 +38,9 @@ The measurement protocol is described in the paper in the references.
 }
 \references{
   Halter M, Elliott JT, Hubbard JB, Tona A, Plant AL (2009),
-  "Cell Volume Distributions Reveal Cell Growth Rates and Division Times.",
-  Journal of Theoretical Biology, in press.
+  "Cell Volume Distributions Reveal Cell Growth Rates and Division Times",
+  Journal of Theoretical Biology, Vol 257, pp 124 - 130,
+  DOI: 10.1016/j.jtbi.2008.10.031.
 }
 \examples{
 data(NIH3T3_volume_data)
