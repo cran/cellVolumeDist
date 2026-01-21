@@ -1,4 +1,4 @@
-bff57c4bff84ca93a648fd9fb8db1690 *DESCRIPTION
+8e77e236786c8bc616dc3f291935abc8 *DESCRIPTION
 20101d9e57544ab5dd557c74c0203af6 *NAMESPACE
 3e6299bfa04e4e731f2b77e8c629f50d *R/cellVolumeDist-internal.R
 d74466ccacca0a3039e74759a32fc9d1 *R/erf.R
@@ -8,8 +8,8 @@ f480808744ae90dfc03eca965677fe28 *R/fitFun.R
 6f161311ff59f623b990f8f3d79947e7 *R/volEq7.R
 a1263018d39fbba2d480d1736453aa45 *data/A10_vSMC_volume_data.rda
 0409bd473d802af00b988569a1c22bc5 *data/NIH3T3_volume_data.rda
-143334416b8b036c4c87de51a066fec8 *man/A10_vSMC_volume_data.Rd
-9d1cd3ecb16cd7a1abef194fbe31f5b5 *man/NIH3T3_volume_data.Rd
+1472ec6670ce8a700768fa598a03fec5 *man/A10_vSMC_volume_data.Rd
+478b0a7774bf7e6e2deea986f3edf4f3 *man/NIH3T3_volume_data.Rd
 7fa9aaa58e71dac766260eaf0be5004f *man/cellVolumeDist-package.Rd
 3ed018bffac389b7f7a2402c27b562ad *man/fitFun.Rd
 c0fb316b42a8a33053a6ce9979fd7801 *man/fitVolDist.Rd

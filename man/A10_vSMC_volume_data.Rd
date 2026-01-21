@@ -34,40 +34,40 @@ inhibitor aphidicolin added at 0nM, 50nM and 100nM concentration. }
 \format{
   The data is formated as 12 numeric vectors of length 257 representing
   cell volume (\eqn{\mu m^3}) distributions, namely
-"Aph0\_a",
-"Aph0\_b",
-"Aph0\_c",
-"Aph0\_d",
-"Aph50\_a",
-"Aph50\_b",
-"Aph50\_c",
-"Aph50\_d",
-"Aph100\_a",
-"Aph100\_b",
-"Aph100\_c", and 
-"Aph100\_d". The name of the object indicates the concentration of
-aphidicolin present in nM (e.g., "Aph0\_a" represents measurements in the
+"Aph0_a",
+"Aph0_b",
+"Aph0_c",
+"Aph0_d",
+"Aph50_a",
+"Aph50_b",
+"Aph50_c",
+"Aph50_d",
+"Aph100_a",
+"Aph100_b",
+"Aph100_c", and 
+"Aph100_d". The name of the object indicates the concentration of
+aphidicolin present in nM (e.g., "Aph0_a" represents measurements in the
 presence of 0nM of aphidicolin).  Four repetitions of measurements at
 each of the three concentrations are included.
 
 The estimated cell cycle time (\eqn{h}) for each volume
 distribution
 dataset is indicated in the numeric objects
-"tAph0\_a",
-"tAph0\_b",
-"tAph0\_c",
-"tAph0\_d",
-"tAph50\_a",
-"tAph50\_b",
-"tAph50\_c",
+"tAph0_a",
+"tAph0_b",
+"tAph0_c",
+"tAph0_d",
+"tAph50_a",
+"tAph50_b",
+"tAph50_c",
 
-"tAph50\_d",
-"tAph100\_a",
-"tAph100\_b",
-"tAph100\_c", and 
-"tAph100\_d".
+"tAph50_d",
+"tAph100_a",
+"tAph100_b",
+"tAph100_c", and 
+"tAph100_d".
 
-The object "volumes\_A10\_vSMC" is a numeric vector representing the volumes
+The object "volumes_A10_vSMC" is a numeric vector representing the volumes
 (\eqn{\mu m^3}) associated with all of the distributions. 
 }
 \source{

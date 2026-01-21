@@ -17,20 +17,20 @@ Volume distribution data for NIH3T3 cell cultures under standard culture conditi
 \format{
   The data is formated as 4 numeric vectors of length 257 representing
   cell volume (\eqn{\mu m^3}) distributions, namely
-"NIH3T3\_a",
-"NIH3T3\_b",
-"NIH3T3\_c", and 
-"NIH3T3\_d". 
+"NIH3T3_a",
+"NIH3T3_b",
+"NIH3T3_c", and 
+"NIH3T3_d". 
 
 
 The estimated cell cycle time (\eqn{h}) for each volume
 distribution dataset is indicated in the numeric objects
-"tNIH3T3\_a",
-"tNIH3T3\_b",
-"tNIH3T3\_c", and 
-"tNIH3T3\_d". 
+"tNIH3T3_a",
+"tNIH3T3_b",
+"tNIH3T3_c", and 
+"tNIH3T3_d". 
 
-The object "volumes\_nih3t3" is a numeric vector representing the
+The object "volumes_nih3t3" is a numeric vector representing the
 volumes (\eqn{\mu m^3}) associated with all of the distributions. 
 }
 \source{
